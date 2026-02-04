@@ -11,7 +11,7 @@ const HomePage = () => {
     localStorage.setItem('list', JSON.stringify(list));
   }
   return (
-    <div className='h-screen bg-white flex'>
+    <div className='min-h-screen bg-slate-300 flex'>
           <Section1 UserList = {UserList} setUserList = {setUserList} Budget={Budget} setBudget={setBudget}
           setItem={setItem}/>
           <Section2 UserList = {UserList} setUserList = {setUserList} Budget={Budget} 
